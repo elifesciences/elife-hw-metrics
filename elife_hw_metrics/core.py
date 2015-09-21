@@ -31,12 +31,23 @@ def write_results(key, grouped_results):
     grouped_results.sort(key=lambda r: r['date'])
     path = join(OUTPUT_DIR, key + ".json")
     json.dump(grouped_results, open(path, 'w'), indent=4, sort_keys=True)
+    print 'wrote',path
     return path
 
 def write_groups(results):
     return [write_results(key, group) for key, group in results.items()]
 
-def foo(fname):
+
+#
+# bootstrap
+#
+
+def main(args):
+    assert len(args) > 0, "a path to dump.csv file is required"
+    if not os.path.exists(OUTPUT_DIR):
+        assert os.system("mkdir -p %s" % OUTPUT_DIR) == 0, "failed to make output dir %r" % OUTPUT_DIR
+
+    fname = args[0]
     with open(fname, 'r') as csvfile:
         header = map(lambda s: s.strip('"').strip(), csvfile.readline().split(","))
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"', fieldnames=header)
@@ -50,24 +61,7 @@ def foo(fname):
             group = results.get(key, [])
             group.append(row)
             results[key] = group
-        paths = write_groups(results)
-        for path in paths:
-            print 'wrote',path
-        
-
-
-
-
-#
-# bootstrap
-#
-
-def main(args):
-    assert len(args) > 0, "a path to dump.csv file is required"
-    if not os.path.exists(OUTPUT_DIR):
-        assert os.system("mkdir -p %s" % OUTPUT_DIR) == 0, "failed to make output dir %r" % dirname
-
-    return foo(args[0])
+        return write_groups(results)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
