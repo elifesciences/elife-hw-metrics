@@ -1,12 +1,12 @@
 from setuptools import setup
 
-MODULE = 'baz' # name of the subdirectory your code resides in
-NAME = 'foo' # project name
+MODULE = 'elife_hw_metrics' # name of the subdirectory your code resides in
+NAME = 'elife-hw-metrics' # project name
 AUTHORS = ["Luke Skibinski <l.skibinski@elifesciences.org>"] # list of all contributing authors
 LICENCE = 'GPLv3' # licence short name
 COPYRIGHT = 'eLife Sciences' # copyright owner
-VERSION = '2015.05.27' # some sort of natural ordering key
-DESCRIPTION = 'bar' # long description
+VERSION = '2015.09.21' # some sort of natural ordering key
+DESCRIPTION = 'Interface for querying Highwire metrics stored as files' # long description
 
 
 def groupby(f, l):
