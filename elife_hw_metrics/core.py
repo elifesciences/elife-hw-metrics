@@ -37,7 +37,7 @@ def write_results(key, grouped_results):
     grouped_results.sort(key=lambda r: r['date'])
     path = join(OUTPUT_DIR, key + ".json")
     json.dump(grouped_results, open(path, 'w'), indent=4, sort_keys=True)
-    LOG.debug('wrote %s', path)
+    LOG.info('wrote %s', path)
     return path
 
 def write_groups(results):
