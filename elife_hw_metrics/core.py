@@ -16,7 +16,8 @@ logging.basicConfig()
 LOG = logging.getLogger(__name__)
 LOG.level = logging.INFO
 
-OUTPUT_DIR = join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'output')
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = join(THIS_DIR, 'output')
 
 INCEPTION = datetime(year=2012, month=12, day=1)
 
