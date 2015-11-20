@@ -1,18 +1,18 @@
 [
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-08-04", 
         "doi": "10.7554/eLife.03602", 
-        "full": "11", 
-        "pdf": "0", 
+        "full": 11, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-08-04", 
         "doi": "10.7554/eLife.05179", 
-        "full": "11", 
-        "pdf": "0", 
+        "full": 11, 
+        "pdf": 0, 
         "period": "day"
     }
 ]

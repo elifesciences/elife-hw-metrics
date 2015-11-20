@@ -1,114 +1,114 @@
 [
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.00791", 
-        "full": "1", 
-        "pdf": "0", 
+        "full": 1, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.01221", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
-        "date": "2015-10-03", 
-        "doi": "10.7554/eLife.01700", 
-        "full": "3", 
-        "pdf": "1", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.01587", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
+        "date": "2015-10-03", 
+        "doi": "10.7554/eLife.01700", 
+        "full": 3, 
+        "pdf": 1, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.04371", 
-        "full": "1", 
-        "pdf": "0", 
+        "full": 1, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
-        "date": "2015-10-03", 
-        "doi": "10.7554/eLife.04998", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
-        "date": "2015-10-03", 
-        "doi": "10.7554/eLife.04553", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
-        "date": "2015-10-03", 
-        "doi": "10.7554/eLife.06900", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
-        "date": "2015-10-03", 
-        "doi": "10.7554/eLife.06003", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.04539", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
-        "doi": "10.7554/eLife.06808", 
-        "full": "0", 
-        "pdf": "0", 
+        "doi": "10.7554/eLife.04553", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
+        "date": "2015-10-03", 
+        "doi": "10.7554/eLife.04998", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-10-03", 
+        "doi": "10.7554/eLife.06003", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.06119", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.06327", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
+        "date": "2015-10-03", 
+        "doi": "10.7554/eLife.06808", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-10-03", 
+        "doi": "10.7554/eLife.06900", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
         "date": "2015-10-03", 
         "doi": "10.7554/eLife.08231", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }
 ]
