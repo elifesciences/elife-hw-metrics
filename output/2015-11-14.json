@@ -1,58 +1,58 @@
 [
     {
-        "abstract": "0", 
-        "date": "2015-11-14", 
-        "doi": "10.7554/eLife.11190", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-11-14", 
         "doi": "10.7554/eLife.07702", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
-        "date": "2015-11-14", 
-        "doi": "10.7554/eLife.09648", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
-        "date": "2015-11-14", 
-        "doi": "10.7554/eLife.09395", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-11-14", 
         "doi": "10.7554/eLife.08501", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-11-14", 
-        "doi": "10.7554/eLife.10719", 
-        "full": "0", 
-        "pdf": "0", 
+        "doi": "10.7554/eLife.09395", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-11-14", 
         "doi": "10.7554/eLife.09419", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-11-14", 
+        "doi": "10.7554/eLife.09648", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-11-14", 
+        "doi": "10.7554/eLife.10719", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-11-14", 
+        "doi": "10.7554/eLife.11190", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }
 ]

@@ -1,26 +1,26 @@
 [
     {
-        "abstract": "0", 
-        "date": "2015-09-28", 
-        "doi": "10.7554/eLife.04553", 
-        "full": "0", 
-        "pdf": "0", 
-        "period": "day"
-    }, 
-    {
-        "abstract": "0", 
+        "abstract": 0, 
         "date": "2015-09-28", 
         "doi": "10.7554/eLife.04539", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }, 
     {
-        "abstract": "0", 
+        "abstract": 0, 
+        "date": "2015-09-28", 
+        "doi": "10.7554/eLife.04553", 
+        "full": 0, 
+        "pdf": 0, 
+        "period": "day"
+    }, 
+    {
+        "abstract": 0, 
         "date": "2015-09-28", 
         "doi": "10.7554/eLife.06808", 
-        "full": "0", 
-        "pdf": "0", 
+        "full": 0, 
+        "pdf": 0, 
         "period": "day"
     }
 ]

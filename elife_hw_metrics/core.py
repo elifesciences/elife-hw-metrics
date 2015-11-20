@@ -4,7 +4,7 @@ __author__ = [
 
 from os.path import join
 from collections import Counter
-import os, sys, json
+import os, sys, json, glob
 from pprint import pprint
 import csv
 import logging
@@ -20,10 +20,26 @@ OUTPUT_DIR = join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '
 
 INCEPTION = datetime(year=2012, month=12, day=1)
 
+def intorbust(x):
+    "returns value cast to an integer if possible, else the original value"
+    try:
+        return int(x)
+    except (ValueError, TypeError):
+        try:
+            return int(float(x))
+        except (ValueError, TypeError):
+            return x
+
 def exsubdict(d, kl):
+    "returns a map excluding those items whose keys are in kl"
     return {k:v for k, v in d.items() if k not in kl}
 
+def dictmap(f, d):
+    "returns new map where f has been applied to every value"
+    return {k:f(v) for k, v in d.items()}
+
 def format_date(val):
+    "takes an unseparated month or day date value and returns a version separated by hyphens"
     if len(val) == 6:
         # monthly
         return "%s-%s" % (val[:4], val[4:])
@@ -33,14 +49,14 @@ def format_date(val):
     raise ValueError("unhandled date format for value %r" % val)
 
 def write_results(key, grouped_results):
-    grouped_results.sort(key=lambda r: r['date'])
+    grouped_results.sort(key=lambda r: r['doi'])
     path = join(OUTPUT_DIR, key + ".json")
     json.dump(grouped_results, open(path, 'w'), indent=4, sort_keys=True)
     LOG.info('wrote %s', path)
     return path
 
 def write_groups(results):
-    return [write_results(key, group) for key, group in results.items()]
+    return [write_results(key, group.values()) for key, group in results.items()]
 
 def grouper(fname):
     return 'daily' if len(fname) == 15 else 'monthly'
@@ -90,21 +106,12 @@ def metrics_between(from_date=None, to_date=None, period='daily'):
     return results
 
 
-#
-# bootstrap
-#
-
-def main(args):
-    "takes the csv file and outputs a chunked version"
-    assert len(args) > 0, "a path to dump.csv file is required"
-    if not os.path.exists(OUTPUT_DIR):
-        assert os.system("mkdir -p %s" % OUTPUT_DIR) == 0, "failed to make output dir %r" % OUTPUT_DIR
-
-    fname = args[0]
+def parse(fname, results={}):
+    print 'processing file',fname
     with open(fname, 'r') as csvfile:
         header = map(lambda s: s.strip('"').strip(), csvfile.readline().split(","))
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"', fieldnames=header)
-        results = {}
+        #results={}
         for row in reader:
             # nid == node id, not used
             # html == full + abstract
@@ -113,13 +120,38 @@ def main(args):
             # xml == always 0
             row = exsubdict(row, ['nid', 'html', 'source', 'type', 'xml'])
             row['date'] = format_date(row['date'])
+            row = dictmap(intorbust, row)
 
-            key = row['date']
+            group_key = row['date']
+            row_key = row['doi']
             
-            group = results.get(key, [])
-            group.append(row)
-            results[key] = group
-        return write_groups(results)
+            group = results.get(group_key, {})
+            if group.has_key(row_key):
+                try:
+                    assert group[row_key] == row, "inequal duplicate found in %s:\nold:%s\nnew:%s\n" % (fname, group[row_key], row)
+                except Exception, e:
+                    print e
+                    print 'using most recent result'
+            group[row_key] = row
+            results[group_key] = group
+        return results
+
+#
+# bootstrap
+#
+
+def parse_hw_files():
+    file_list = sorted(glob.glob("hw_stats.*.csv"))
+    results = {}
+    for f in file_list:
+        results = parse(f, results)
+    return write_groups(results)
+
+def main(args):
+    "takes the csv file and outputs a chunked version"
+    if not os.path.exists(OUTPUT_DIR):
+        assert os.system("mkdir -p %s" % OUTPUT_DIR) == 0, "failed to make output dir %r" % OUTPUT_DIR
+    return parse_hw_files()
 
 if __name__ == '__main__':
     main(sys.argv[1:])
