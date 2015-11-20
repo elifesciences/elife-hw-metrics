@@ -1,15 +1,19 @@
 # elife-hw-metrics
 
-This repository contains code to transform single data dumps from Highwire into 
-more digestable chunks.
+This repository contains code to transform datestamped data dumps from Highwire 
+into more digestable chunks.
+
+*WARNING*: there are known discrepencies in the data! Old daily values disappear 
+or fluctuate when compared to newer data.
 
 ## installation
 
-
+    $ git clone https://github.com/elifesciences/elife-hw-metrics
+    $ ./install.sh
 
 ## usage
 
-
+    $ ./run.sh
 
 ## Copyright & Licence
 
