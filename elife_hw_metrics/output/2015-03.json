@@ -2648,6 +2648,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 0, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.01328", 
+        "full": 282, 
+        "pdf": 0, 
+        "period": "month"
+    }, 
+    {
         "abstract": 18, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.01339", 
@@ -7928,6 +7936,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 15, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.04491", 
+        "full": 153, 
+        "pdf": 41, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.04494", 
@@ -8024,6 +8040,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 0, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.04550", 
+        "full": 0, 
+        "pdf": 181, 
+        "period": "month"
+    }, 
+    {
         "abstract": 68, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.04551", 
@@ -8101,6 +8125,14 @@
         "doi": "10.7554/eLife.04591", 
         "full": 373, 
         "pdf": 124, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 6, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.04599", 
+        "full": 399, 
+        "pdf": 183, 
         "period": "month"
     }, 
     {
@@ -9224,6 +9256,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 33, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.05701", 
+        "full": 901, 
+        "pdf": 112, 
+        "period": "month"
+    }, 
+    {
         "abstract": 13, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.05720", 
@@ -9344,6 +9384,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 19, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.05896", 
+        "full": 981, 
+        "pdf": 515, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.05899", 
@@ -9448,11 +9496,27 @@
         "period": "month"
     }, 
     {
+        "abstract": 53, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.06156", 
+        "full": 1327, 
+        "pdf": 173, 
+        "period": "month"
+    }, 
+    {
         "abstract": 24, 
         "date": "2015-03", 
         "doi": "10.7554/eLife.06166", 
         "full": 705, 
         "pdf": 323, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-03", 
+        "doi": "10.7554/eLife.06179", 
+        "full": 0, 
+        "pdf": 340, 
         "period": "month"
     }, 
     {
