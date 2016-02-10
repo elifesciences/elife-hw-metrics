@@ -2640,6 +2640,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 0, 
+        "date": "2015-01", 
+        "doi": "10.7554/eLife.01328", 
+        "full": 264, 
+        "pdf": 0, 
+        "period": "month"
+    }, 
+    {
         "abstract": 13, 
         "date": "2015-01", 
         "doi": "10.7554/eLife.01339", 
@@ -7757,6 +7765,14 @@
         "doi": "10.7554/eLife.04489", 
         "full": 0, 
         "pdf": 79, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 16, 
+        "date": "2015-01", 
+        "doi": "10.7554/eLife.04491", 
+        "full": 152, 
+        "pdf": 69, 
         "period": "month"
     }, 
     {

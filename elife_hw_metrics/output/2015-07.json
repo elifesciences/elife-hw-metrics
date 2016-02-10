@@ -2648,6 +2648,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 0, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.01328", 
+        "full": 255, 
+        "pdf": 0, 
+        "period": "month"
+    }, 
+    {
         "abstract": 10, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.01339", 
@@ -7968,6 +7976,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 5, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.04491", 
+        "full": 79, 
+        "pdf": 26, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.04493", 
@@ -8072,6 +8088,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 9, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.04550", 
+        "full": 66, 
+        "pdf": 41, 
+        "period": "month"
+    }, 
+    {
         "abstract": 42, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.04551", 
@@ -8149,6 +8173,14 @@
         "doi": "10.7554/eLife.04591", 
         "full": 186, 
         "pdf": 72, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 9, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.04599", 
+        "full": 57, 
+        "pdf": 30, 
         "period": "month"
     }, 
     {
@@ -9560,6 +9592,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 14, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.05701", 
+        "full": 105, 
+        "pdf": 46, 
+        "period": "month"
+    }, 
+    {
         "abstract": 3, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.05720", 
@@ -9709,6 +9749,14 @@
         "doi": "10.7554/eLife.05875", 
         "full": 95, 
         "pdf": 52, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 19, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.05896", 
+        "full": 165, 
+        "pdf": 95, 
         "period": "month"
     }, 
     {
@@ -9976,11 +10024,27 @@
         "period": "month"
     }, 
     {
+        "abstract": 13, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06156", 
+        "full": 102, 
+        "pdf": 47, 
+        "period": "month"
+    }, 
+    {
         "abstract": 5, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.06166", 
         "full": 123, 
         "pdf": 137, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 6, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06179", 
+        "full": 124, 
+        "pdf": 28, 
         "period": "month"
     }, 
     {
@@ -10336,6 +10400,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 72, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06462", 
+        "full": 752, 
+        "pdf": 196, 
+        "period": "month"
+    }, 
+    {
         "abstract": 20, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.06474", 
@@ -10552,6 +10624,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 2, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06651", 
+        "full": 140, 
+        "pdf": 64, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.06656", 
@@ -10565,6 +10645,14 @@
         "doi": "10.7554/eLife.06659", 
         "full": 147, 
         "pdf": 77, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 14, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06664", 
+        "full": 239, 
+        "pdf": 114, 
         "period": "month"
     }, 
     {
@@ -10749,6 +10837,14 @@
         "doi": "10.7554/eLife.06837", 
         "full": 107, 
         "pdf": 33, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 9, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.06845", 
+        "full": 469, 
+        "pdf": 498, 
         "period": "month"
     }, 
     {
@@ -10946,6 +11042,14 @@
     {
         "abstract": 0, 
         "date": "2015-07", 
+        "doi": "10.7554/eLife.06996", 
+        "full": 0, 
+        "pdf": 447, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-07", 
         "doi": "10.7554/eLife.07004", 
         "full": 0, 
         "pdf": 114, 
@@ -10957,6 +11061,14 @@
         "doi": "10.7554/eLife.07009", 
         "full": 2682, 
         "pdf": 283, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 7, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07025", 
+        "full": 710, 
+        "pdf": 328, 
         "period": "month"
     }, 
     {
@@ -11216,6 +11328,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 17, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07290", 
+        "full": 653, 
+        "pdf": 386, 
+        "period": "month"
+    }, 
+    {
         "abstract": 45, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.07295", 
@@ -11237,6 +11357,14 @@
         "doi": "10.7554/eLife.07304", 
         "full": 109, 
         "pdf": 69, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 20, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07314", 
+        "full": 216, 
+        "pdf": 118, 
         "period": "month"
     }, 
     {
@@ -11285,6 +11413,14 @@
         "doi": "10.7554/eLife.07367", 
         "full": 189, 
         "pdf": 120, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 2, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07369", 
+        "full": 351, 
+        "pdf": 182, 
         "period": "month"
     }, 
     {
@@ -11528,6 +11664,14 @@
         "period": "month"
     }, 
     {
+        "abstract": 52, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07635", 
+        "full": 1898, 
+        "pdf": 627, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.07641", 
@@ -11640,11 +11784,27 @@
         "period": "month"
     }, 
     {
+        "abstract": 25, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07860", 
+        "full": 1118, 
+        "pdf": 2018, 
+        "period": "month"
+    }, 
+    {
         "abstract": 0, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.07861", 
         "full": 0, 
         "pdf": 203, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 22, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.07864", 
+        "full": 1098, 
+        "pdf": 309, 
         "period": "month"
     }, 
     {
@@ -11749,6 +11909,14 @@
         "doi": "10.7554/eLife.08033", 
         "full": 462, 
         "pdf": 217, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 13, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.08069", 
+        "full": 154, 
+        "pdf": 38, 
         "period": "month"
     }, 
     {
@@ -11872,11 +12040,11 @@
         "period": "month"
     }, 
     {
-        "abstract": 15, 
+        "abstract": 21, 
         "date": "2015-07", 
         "doi": "10.7554/eLife.08378", 
-        "full": 366, 
-        "pdf": 94, 
+        "full": 20, 
+        "pdf": 20, 
         "period": "month"
     }, 
     {
@@ -12077,6 +12245,14 @@
         "doi": "10.7554/eLife.09262", 
         "full": 0, 
         "pdf": 189, 
+        "period": "month"
+    }, 
+    {
+        "abstract": 0, 
+        "date": "2015-07", 
+        "doi": "10.7554/eLife.09275", 
+        "full": 0, 
+        "pdf": 153, 
         "period": "month"
     }, 
     {
