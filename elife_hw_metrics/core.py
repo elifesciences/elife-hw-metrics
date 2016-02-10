@@ -93,7 +93,7 @@ def metrics_between(from_date=None, to_date=None, period='daily'):
     if period == 'monthly':
         from_date = datetime(year=from_date.year, month=from_date.month, day=1)
         to_date = datetime(year=to_date.year, month=to_date.month, day=\
-                           calendar.monthrange(year=to_date.year, month=to_date.month)[0])
+                           calendar.monthrange(year=to_date.year, month=to_date.month)[1])
 
     # figure out 
     path_list = metrics_paths().get(period, [])
